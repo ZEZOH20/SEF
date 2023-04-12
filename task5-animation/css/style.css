@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    /* background-color: #ddd; */
+    
+}
+header{
+    width: 100%;
+    height: 100vh; 
+    background-image: url(../images/stadium3.jpg);
+    background-size:cover ;
+}
+.balls{
+    position: absolute;
+    font-size: 100px;
+    animation-name: ball;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    /* animation-iteration-count: infinite; */
+    
+    
+}
+.ballGo{
+  left:2%;
+  
+}
+.ballWent{
+  left:90%;
+  animation-direction:reverse;
+}
+
+.b2{
+    animation-delay:5s ;
+}
+.b3{
+    animation-delay:10s ;
+}
+.b4{
+    animation-delay:15s ;
+}
+.b5{
+    animation-delay:20s ;
+}
+.b6{
+    animation-delay:25s ;
+}
+.b7{
+    animation-delay:30s ;
+}
+
+.b8{
+    animation-delay:35s ;
+}
+
+
+@keyframes ball{
+    0%{
+       
+        left:2%;
+        transform: rotate(0);
+    }
+    25%{
+        
+    }
+    50%{
+        top:2%;
+        /* left:50%;   */
+    }
+    75%{
+       
+    }
+    100%{
+       
+        left:90%;
+        transform: rotate(360deg);
+    }
+}
+
+/* .ground{
+    position: absolute;
+    width: 100%;
+    height: 60px ;
+    background-color: green;
+
+} */
