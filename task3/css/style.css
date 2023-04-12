@@ -1,0 +1,175 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    color: white;
+    /* background-color: brown; */
+}
+/*header*/
+.header{
+    height: 2000px;
+    background-color: rgb(39, 20, 70);
+    overflow: hidden;
+}
+/*header*/
+.contact-nav{
+    width: 100%; 
+    height: 150px;
+    position: fixed;
+    background-color: rgb(39, 20, 70);
+    opacity: 0.9;
+}
+/* Contact */
+.contact{
+    padding: 40px 0;
+    
+}
+.contact .container img{
+    float: right;
+    width:25px;
+    margin-right: 5px;
+}
+.contact .container span{
+  float: right;
+  margin: 5px 20px 0 0;
+}
+/* Contact */
+/* Navbar */
+.nav{
+    height: 100%;
+}
+.nav img{
+    float: left;
+    width:70px;
+}
+.nav .container ul{
+    float: left;
+    margin:25px 0 0 100px;   
+}
+.nav .container ul li{
+    list-style: none;
+    font-size: 15px;
+    margin-left: 40px;
+    display: inline-block; /*OR: float: left; */
+}
+.nav .container button{
+    margin-top: 25px;
+    float: right;
+}
+/*hover*/
+.nav .container ul li:hover{
+  text-decoration: 2px underline #c606e0;
+  color: #c606e0;
+  font-weight: bold;
+}
+/* Navbar */
+/*header-content*/
+
+ /*title*/
+ .header-title{
+    height: 375px;
+    width:40%;
+    float:left;
+ }
+
+  /*title*/
+  /*header-image*/
+  .header-content .container img{
+    width:700px;
+    float:right;
+    margin-top: -150px;
+  }
+/*header-content*/
+
+/*card*/
+  /*card-title*/                 /***************************************/
+  .card-content{
+    margin: auto;
+    color: black;
+   text-align: center;
+   font-size: 18px;
+  }
+  .card-title{
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+  }
+  .card-content button{
+    margin-top: 50px;
+  }
+  /*card-title*/
+  .parent-cards{
+        font-size:16px ;
+  }
+  .card{
+    width: 30%;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius:10px;
+    float:left;
+  }
+ 
+  .circle{
+    width:70px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 2px dotted #c606e0;
+    margin: auto;
+  }
+  .circle-content{
+    font-weight: bold;
+  }
+  .circle-content h2{
+    font-size:40px ;
+  }
+  .circle-content p{
+    font-size:15px ;
+  }
+  
+ .card:hover{
+    border: 2px solid #c606e0;
+ }
+/*card*/
+/*header*/
+
+
+.btn{
+    border: none;
+    border-radius:4px;
+    padding:10px 20px;
+    color:white; 
+    font-weight: bold; 
+}
+.btn1{
+    background-color:transparent ;
+}
+.btn2{
+    background-color: rgb(98, 0, 255);
+}
+
+/* Global classes */
+    /*space*/
+    .large-space{
+        margin-top: 400px;
+    }
+    .title-space{
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    /*space*/
+    /*hover*/
+    .btn:hover{
+        border: 2px solid  #ffffff;
+        padding:8px 15px;
+    }
+    h1:hover{
+       color: #c606e0; 
+    }
+     /*hover*/
+/* Global classes */

@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+body{
+    height: 3000px;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+    overflow: auto;
+    
+}
+/* header */
+/* nav */
+.nav{
+    width:100%;
+    position: fixed;
+    z-index:2;
+   
+}
+.nav .container img{
+    width: 60px;
+    float: left;
+    
+}
+.nav .container ul{
+    float: right;
+    left:50%;
+
+}
+.nav .container ul li{
+ list-style: none;
+ display: inline-block;
+ margin-left: 25px;
+ color: #fff;
+}
+.signUp{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    float: right;
+    left:84%;
+}
+.login{
+    color: rgb(0, 0, 0);
+    border:1px solid #000;
+    float: right;
+    left:90%;
+    
+}
+/* nav */
+/* background */
+.header .background{
+    width: 100%;
+    height: 100vh;
+    background-color:#fadeb9;
+    background-image: url('../images/Layer3.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+/* background */
+/* content */
+.header .content{
+    text-align: center;
+    z-index:2;
+}
+/* content */
+/* header */
+/* Top Destinations */
+/* card */
+.section2{
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+    z-index: 2;
+}
+.card{
+    position: relative;
+    float: left;
+    margin: 0 30px;
+    
+}
+.card img{
+    width:250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.card::after{
+    position: absolute;
+    content: "";
+    width:100%;
+    height: 0;
+    
+    bottom:0;
+    left:0;
+
+    opacity:0.7;
+    background-color: #000;
+    transition: 1s;
+}
+.card:hover::after {
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+    
+}
+.background{
+    width: 100%;
+    height: 20%;
+    background-image:url('../images/spiderman1.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+/* card */
+/* Top Destinations */
+/*global*/
+/*hero image*/
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:1;
+}
+.hero{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+ 
+   
+}
+.hero-top{
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.btn{
+    padding: 6px 15px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+h1{
+    color: #0004ff;
+}
+/*hero image*/
+/*global*/
+
+/*   styleinline     id      (class - pseudo class - attr selector )    element 
+
+         0            3                 9                                   0         =    390
+
+         0            4                 6                                   3          =    463                     
+                      
+
+
+
+
+ id =    0            1                      0                             0          =  100
+ class=  0            0                      1                             0          =   10
+
+         1            0                      0                             0          =  1000
+
+         0            0                      1                              0          =  10
+
+*/
