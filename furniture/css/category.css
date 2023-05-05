@@ -1,0 +1,23 @@
+.cat{
+    float: left;
+    width:24%;
+    margin-right: 1%;
+ 
+}
+.cat img{
+    width: 100%;
+}
+.cat .content{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 8px;
+    background-color: rgb(154, 0, 0);
+    visibility: hidden;
+}
+.cat:hover .arrow{
+    visibility: visible;
+}
