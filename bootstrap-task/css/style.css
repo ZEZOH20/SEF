@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    /* background: linear-gradient(rgb(132, 121, 137)1%, rgb(100, 110, 137)99%); */
+    background-color: rgb(114, 106, 118);
+
+}
 :root{
     --font-castoro-titling:'Castoro Titling', 'cursive';
 }
