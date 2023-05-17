@@ -25,6 +25,16 @@ window.addEventListener('resize' , function(){
         }
     })
 })
+window.addEventListener('load' , function(){
+    console.log(window.innerWidth)
+    elements.forEach(function(e){
+        if(this.window.innerWidth < 1200){
+            e.classList.remove('carousel-item')
+        }else{
+            e.classList.add('carousel-item')
+        }
+    })
+})
 // remove-add slider
 
 
