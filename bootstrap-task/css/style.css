@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-castoro-titling:'Castoro Titling', 'cursive';
+}
+.gradient-background{
+    background: linear-gradient(rgb(132, 121, 137), rgb(100, 110, 137));
+}
+.main-background{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bac1.jpeg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);   
+}
+
+.main-title{
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid #ffffff;
+    background-color: rgba(0, 0, 0,0.3);
+    text-align: center;
+}
+
+.main-title .container h1{
+    margin-top: 20px;
+    font-family: var(--font-castoro-titling);  
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.card-cbody h3,h5{
+  font-family: var(--font-castoro-titling);
+  font-weight: bold;
+ 
+}
+.card-cbody h5{
+    color:#ad9300;
+}
+.card-cbody a{
+    color: white;
+    background-color: purple;
+    border: none;
+}
+.card-cbody a:hover{
+    color: white;
+    background-color: rgb(103, 1, 103);
+}
+
+.card:hover{
+ transition: 1s;   
+ transform: scale(.95,.95);
+}
+.content{
+    height: 100px;   
+}
+.content span{
+    font-family: var(--font-castoro-titling);    
+    font-size: 22px;
+    font-weight: bold;
+}
