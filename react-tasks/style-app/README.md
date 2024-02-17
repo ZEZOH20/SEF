@@ -1,6 +1,6 @@
 
-![alt text](https://github.com/ZEZOH20/SEF/blob/main/react-tasks/test-app/screens/screen1.png?raw=true)
-![alt text](https://github.com/ZEZOH20/SEF/blob/main/react-tasks/test-app/screens/screen2.png?raw=true)
+![alt text](https://github.com/ZEZOH20/SEF/blob/main/react-tasks/style-app/screens/screen1.png?raw=true)
+![alt text](https://github.com/ZEZOH20/SEF/blob/main/react-tasks/style-app/screens/screen2.png?raw=true)
 
 # Getting Started with Create React App
 
