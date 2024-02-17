@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- script -->
+    <script src="js/bootstrap.bundle.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/login.js" defer></script>
+    <!-- script -->
+</head>
+
+<body style="background-color:var(--bs-dark)">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid d-flex justify-content-between ">
+            <!-- brand -->
+            <a class="navbar-brand d-block" href="index.html">Online Shoping</a>
+            <!-- brand -->
+            <!-- toggler -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-target="#navbar-collapse"
+                data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- toggler -->
+            <!-- Note : you should add (flex-grow-0) class to justify-content-between work -->
+            <div id="navbar-collapse" class="collapse navbar-collapse flex-grow-0">
+                <!-- userName -->
+            </div>
+            <div id="navbar-collapse" class="collapse navbar-collapse flex-grow-0">
+                <ul class="navbar-nav flex-row">
+                    <ul class="navbar-nav">
+                        <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownCart"
+                            data-bs-toggle="dropdown">
+                            Cart
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end col-6 col-lg-2" aria-labelledby="dropdownCart">
+                            <a href="#" class="dropdown-item">first</a>
+                            <a href="#" class="dropdown-item">second</a>
+                            <a href="#" class="dropdown-item">third</a>
+                        </div>
+                    </ul>
+                    <li class="nav-item ms-1"><a href="login.html" class="nav-link">Login</a></li>
+                    <li class="nav-item ms-1"><a href="register.html" class="nav-link">Register</a></li>
+                    <!-- <li class="nav-item"><a href="" class="nav-link">Logout</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- login -->
+    <section class="position-absolute w-75 top-50 start-50 translate-middle rounded-3" style="background-color:#eee;">
+        <div class="container p-5">
+            <h2 class="mb-5">Login</h2>
+            <form action="">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input id="email" type="email" class="form-control">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input id="password" type="password" class="form-control">
+                    </div>
+                    <div class="col-12 mb-3">
+                       <div class="form-check">
+                        <label for="rememberMe" class="form-check-label fw-semibold">Remember me</label>
+                        <input id="rememberMe" type="checkbox" class="form-check-input">
+                       </div>
+                    </div>
+                </div>
+                <button id="loginBtn" type="submit" class="btn btn-primary p-2 fw-semibold">Login</button>
+            </form>
+        </div>
+    </section>
+    <!-- login -->
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+/*header*/
+
+nav .container .content{
+    width:100%;
+    margin:50px 0; 
+}
+.logo{
+    width: 20%;
+    float:left;
+   
+}
+/*nav-list*/
+.nav-list{
+    width: 60%;
+    float:left;
+    margin-top: 15px;
+   
+
+}
+.nav-list li{
+    display: inline-block;
+    margin-right: 35px;
+    position: relative; 
+}
+/*after*/
+.nav-list li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: 3px solid rgb(123, 82, 68);
+    transition: .5s;
+}
+
+/*after*/
+/*nav-list : hover*/
+.nav-list li:hover::after{
+    width: 100%;
+}
+/*nav-list : hover*/
+.nav-list li a{
+    color: rgb(123, 82, 68);
+    font-weight: bold;
+}
+/*furniture*/
+.furniture .parent{
+    margin:20px 0 0 20px;
+}
+.furniture .parent .table{
+    float:left;
+    width: 30%;
+    margin-right: 2%;
+}
+/*furniture*/
+/*nav-list*/
+/* nav-icons */
+.nav-icons{
+    width: 15%;
+    float:right;
+    margin-top: 10px; 
+}
+.nav-icons i{
+    float: left;
+    font-size: 22px;
+    margin-right:10px ;
+}
+.nav-icons div .circle{
+    width:15px;
+    float:left;
+    border-radius: 50%;
+    background-color: rgb(123, 82, 68);
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.nav-icons div span{
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* nav-icons */
+
+ /*furniture*/
+ .furniture{
+    position: absolute;
+    width:400px;
+    height: 160px;
+    top:50px;
+    border: 2px solid rgb(123, 82, 68);
+    background-color: white;
+    color:rgb(123, 82, 68);
+    z-index: 1;
+    transform: scale(0);
+    transition: .3s;
+ }
+ #nav-list-1:hover .furniture{
+    transform: scale(100%);
+ }
+ /*furniture*/
+
+/*header*/
+.header-img{
+ width:100%; 
+ height: 71vh;  /* 100vh*/
+ background-image: url('../images/header-img.jpg');
+ background-size:contain;
+ background-repeat: no-repeat;
+ position: relative;
+ top:80px;
+ margin-bottom: 120px;
+}
+.header-content{
+  width: 40%;
+  margin-left:10%;
+
+}
+/*header*/

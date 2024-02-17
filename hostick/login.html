@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <style>
+        .login-card:hover {
+            transition: 1s;
+            transform: scale(.95);
+        }
+    </style>
+</head>
+
+<body style="background-color: var(--color-royalblue);">
+    <!-- container -->
+    <!-- background display only for small screens -->
+    <div class="bg-login background-img d-block d-lg-none position-absolute"
+        style="background-image: url('images/1.png');height: 100vh;z-index: -1;opacity:0.2;">
+    </div>
+    <!-- background display only for small screens -->
+    <div class="container d-flex align-items-center" style="height:100vh;">
+        <!-- login-row -->
+        <div class="row d-flex justify-content-center mx-auto login-card" style="width:100%; height:80%;">
+            <!-- col-left -->
+            <div class="col-11 col-md-8 col-lg-5 rounded-3" style="background-color:white;">
+                <div class="row d-flex align-items-center  justify-content-center" style="height:100%;">
+                    <!-- content -->
+                    <div class="col-8">
+                        <!-- logo -->
+                        <div class="text-center">
+                            <div class="rounded-circle mx-auto mt-4"
+                                style="background-color: var(--color-whitesmoke);width:20%;">
+                                <i class="fab fa-slack" style="color: var(--color-royalblue);font-size:5rem;"></i>
+                            </div>
+                            <h3 class="mt-3">Hello Again!</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Architecto qui quia.
+                            </p>
+                        </div>
+                        <!-- logo -->
+                        <!-- input -->
+                        <form class="" action="">
+                            <label for="email" class="form-label">email</label>
+                            <input type="email" class="form-control mb-2">
+                            <label for="password" class="form-label">password</label>
+                            <input type="password" class="form-control mb-2">
+                            <!-- forget password -->
+                            <div class="text-end fw-bold" style="">
+                                <a href="#" style="font-size: var(--font-size1);color: var(--color-royalblue);"
+                                    class="text-decoration-none">Forget Password</a>
+                            </div>
+                            <!-- forget password -->
+                            <button class="btn btn-royalblue w-100 my-3" type="submit">login</button>
+                        </form>
+                        <!-- input -->
+                        <!-- signUp-btn -->
+                        <div class="d-flex mt-4">
+                            <p class="me-1">Lorem ipsum dolor sit.</p>
+                            <a class="text-decoration-none" href="www.google.com"><span class="fw-bold"
+                                    style="color: var(--color-royalblue);">signUp</span></a>
+                        </div>
+                        <!-- signUp-btn -->
+                    </div>
+                    <!-- content -->
+                </div>
+            </div>
+            <!-- col-left -->
+            <!-- col-right -->
+            <div class="d-none d-lg-block col-4 position-relative">
+                <!-- bg -->
+                <div class="background-img rounded-3 text-white"
+                    style="background-image: url('images/bg1.png');opacity:0.5;">
+                </div>
+                <!-- bg -->
+                <!-- content -->
+                <div class="content position-absolute text-white top-0">
+                    <!-- anything -->
+                </div>
+                <!-- content -->
+            </div>
+            <!-- col-right -->
+        </div>
+        <!-- login-row -->
+    </div>
+    <!-- container -->
+
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/script.js"></script>
+
+</html>

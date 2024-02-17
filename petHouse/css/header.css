@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Anton';font-size: 22px; */
+    font-family: 'varela round', sans-serif;
+
+}
+
+/*global*/
+/*hero image*/
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.hero-top {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+/*hero image*/
+/* btn */
+.btn {
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.btn1 {
+    background-color: #72569d;
+    border: none;
+    color: white;
+}
+
+.btn2 {
+    background-color: #fadeb9;
+    color: #72569d;
+    border: none;
+}
+/* hover */
+.btn:hover{
+  opacity: 0.8;
+  font-size: small;
+  color: #000;
+  border: 2px solid #000;
+}
+/* hover */
+
+/* btn */
+/* space */
+.text-space {
+    margin: 20px 0;
+}
+.line-space{
+    line-height: 25px;
+}
+.section-space {
+    margin-top:50px ;
+}
+
+/* space */
+/* content */
+.content-align{
+    width: 40%;
+}
+.margin-left{
+    margin-left: 15px;
+}
+.font-small{
+    font-size: small;
+}
+/* content */
+.font-i {
+    font-size: 25px;
+}
+
+
+h1 {
+    color: #010f89;
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+h2{
+    color: #010f89;
+    font-weight: 800;
+}
+
+a {
+    color: #010f89;
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+    font-size: small;
+}
+.span1{
+    color: #010f89;
+    font-weight: normal;
+    font-size: medium;
+    text-transform:uppercase;
+}
+
+/*global*/
+
+
+/*****************************************/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    font-size: 16px;
+}
+
+/* header */
+/* nav */
+.nav {
+    width: 100%;
+    height: 100px;     /* to use hero-top */
+    position: fixed;
+    z-index: 2;
+
+
+}
+
+.nav .container img {
+    width: 60px;
+    float: left;
+
+}
+
+.nav .container ul {
+    float: right;
+    left: 50%;
+
+}
+
+.nav .container ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.register {
+    float: right;
+    padding: 10px 20px;
+    left: 85%;
+}
+
+.login {
+    float: right;
+    padding: 10px 20px;
+    left: 92%;
+}
+
+
+/* nav */
+/* background */
+.header .bac {
+    width: 100%;
+    height: 100vh;
+    /* background-color:#fadeb9; */
+    background-image: url('../images/Layer7.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* background */
+/* content */
+.header .content {
+    z-index: 2;
+}
+
+.rating {
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-size: x-small;
+
+}
+
+/* content */
+/* footer */
+.header-footer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header-footer img {
+
+    width: 700px;
+}
+
+/* footer */
+/* header */
+
+
+
+/*   styleinline     id      (class - pseudo class - attr selector )    element 
+
+         0            3                 9                                   0         =    390
+
+         0            4                 6                                   3          =    463                     
+                      
+
+
+
+
+ id =    0            1                      0                             0          =  100
+ class=  0            0                      1                             0          =   10
+
+         1            0                      0                             0          =  1000
+
+         0            0                      1                              0          =  10
+
+*/

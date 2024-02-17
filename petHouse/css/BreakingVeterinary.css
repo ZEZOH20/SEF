@@ -1,0 +1,23 @@
+
+.news-section{
+    position: relative;
+    height: 400px;  /*very important*/
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    
+}
+.news-back{
+    width: 100%;
+    height: 400px;
+    background-image:url('../images/image8.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 200px;
+
+}
+.news-back .overlay{
+    height: 400px;
+}

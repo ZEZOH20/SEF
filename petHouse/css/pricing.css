@@ -1,0 +1,61 @@
+
+/*update on services style sheet*/
+
+#pricing .cards {
+    margin: 0 auto;
+    
+}
+
+#pricing .card {
+    width: 30%;
+    text-align: center;
+    height: 400px;
+}
+
+#pricing .content-all {
+    margin-left: 0;
+
+}
+
+
+#pricing .services-icon-bac {
+    width: 21%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);;
+}
+
+/* circle */
+.circle {
+    width: 100%;
+    
+    border-radius: 50%;
+    border: 2px solid #c606e0;
+    margin: auto;
+}
+
+.circle-content {
+    font-weight: bold;
+}
+
+.circle-content h2 {
+    font-size: 40px;
+}
+
+.circle-content p {
+    font-size: 15px;
+}
+
+/* circle */
+
+#pricing .card::after {
+    position: static;
+    /* background-color: rgb(146, 157, 86); */
+}
+.card:hover .content-all {
+    position: static;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+}
+
+/*update on services style sheet*/

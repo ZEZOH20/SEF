@@ -1,0 +1,63 @@
+.penelope{
+    width: 100%;
+   
+}
+/* marketing */
+.marketing{
+    height: 300px;
+    width: 45%;
+    float: left; 
+    background-color: rgb(247, 243, 239);
+    border-radius: 2%;
+    padding: 20px;
+    margin-right: 2%;
+}
+.marketing .parent{
+    height: 50px;
+
+}
+.marketing p{
+    margin:15px 0 70px 0;
+}
+
+.marketing .parent i{
+    display: block;
+    float: left;
+    width:6%;
+    font-size: 60px;
+    color: rgb(123, 82, 68);
+    margin-top: 18px;
+    margin-right: 28px;
+}
+.marketing .parent .group{
+    float: left;
+    width: 80%;
+  
+}
+.marketing .bar{
+    float:right;
+    width:10%;
+    margin-right: 10px;
+}
+/* marketing */
+/* discount */
+.discount{
+    float: left;
+    width:25%;
+    height: 300px;
+    margin-right: 1%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .5s;
+    
+}
+.discount .content{
+    margin: 20px 0 0 20px;
+}
+.discount .content span{
+    color: rgb(123, 82, 68);
+}
+.discount:hover{
+    transform: scale(110%);
+}
+/* discount */

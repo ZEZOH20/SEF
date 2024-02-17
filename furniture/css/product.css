@@ -1,0 +1,58 @@
+
+.filter{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.filter span{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.item{
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+}
+.item-img{
+    position: relative;
+  
+}
+.item-img img{
+    width: 100%;
+}
+
+.item-img-icons{
+    top: 0;
+    left: 0;
+    background-image: url(../images/chair6.jpg);
+    opacity: 0;
+    width: 100%;
+
+     /*Add this*/
+    /* left: 50%; 
+    transform: translate(-50%, 0); */
+    /*Add this*/
+    
+    transition: .5s;
+    transform-style:preserve-3d;
+    perspective: 400px;
+}
+.item:hover .item-img-icons{
+    opacity: 1;
+    transform:rotateY(180deg);
+    /* left: 0; 
+    transform: translate(0, 0);
+    width: 100%; */
+}
+.item-icon{
+    color: #b38037;
+    margin-right: 5px;
+    font-size:40px;
+    opacity: 0;
+    transition: .5s;
+    transition-delay: .5S; 
+}
+.item:hover .item-icon{
+    opacity: 1;
+}

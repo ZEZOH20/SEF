@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- <script>
+        const addToCart = (id) => {
+   console.log(id)
+    }
+    </script> -->
+    <script src="js/bootstrap.bundle.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script type="module" src="js/search.js" defer></script>
+    <script type="module" src="js/index.js" defer></script>
+   
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid d-flex justify-content-between ">
+            <!-- brand -->
+            <a class="navbar-brand d-block" href="index.html">Online Shoping</a>
+            <!-- brand -->
+            <!-- toggler -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-target="#navbar-collapse"
+                data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- toggler -->
+            <!-- Note : you should add (flex-grow-0) class to justify-content-between work -->
+            <div id="navbar-collapse" class="collapse navbar-collapse flex-grow-0">
+                <!-- userName -->
+            </div>
+            <div id="navbar-collapse" class="collapse navbar-collapse flex-grow-0">
+                <ul id="nav-content" class="navbar-nav flex-row">
+                    <ul class="navbar-nav">
+                        <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownCart"
+                            data-bs-toggle="dropdown">
+                            Cart
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end col-6 col-lg-2" aria-labelledby="dropdownCart">
+                            <a href="#" class="dropdown-item">first</a>
+                            <a href="#" class="dropdown-item">second</a>
+                            <a href="#" class="dropdown-item">third</a>
+                        </div>
+                    </ul>
+                    <li class="nav-item ms-1"><a href="login.html" class="nav-link">Login</a></li>
+                    <li class="nav-item ms-1"><a href="register.html" class="nav-link">Register</a></li>
+                    <li class="nav-item ms-1 d-none" onclick="logout()"><a href="" class="nav-link">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- search -->
+    <section class="container my-4">
+        <div class="row justify-content-center" id="">
+            <div class="col-8 col-lg-6">
+                <!-- select -->
+                <select class="form-select" name="" id="search-by">
+                    <option value="name" selected>Search by name</option>
+                    <option value="category">Search by category</option>
+                </select>
+                <!-- select -->
+            </div>
+            <div class="col-8 col-lg-6 mt-1 mt-lg-0">
+                <!-- input -->
+                <input type="search" class="form-control" name="" id="search-item" aria-describedby="helpId"
+                    placeholder="Search Item">
+                <!-- input -->
+            </div>
+        </div>
+    </section>
+    <!-- search -->
+
+    <!-- cards -->
+    <section class="container">
+        <div class="row w-75 mx-auto g-3" id="products">
+            <!-- card -->
+            <!-- <div class="col-8 col-md-6 col-lg-4 mx-auto mx-md-0" id="product1">
+                <div class="card">
+                    <img class="card-img-top" src="images/600x400.png" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Product Name</h4>
+                        <p class="card-text mb-0 fw-semibold"><span class="fs-5"
+                                style="color:var(--bs-gray-dark);">Price: </span>80&dollar;</p>
+                        <p class="card-text fw-semibold"><span class="fs-5" style="color:var(--bs-gray-dark);">Category:
+                            </span>Category</p>
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-primary p-2 fw-semibold">Add to
+                                cart</button>
+                            <i class="fa-regular fa-heart align-self-center fs-5" style="color: #d10000;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- card -->  
+        </div>
+        <button class="btn btn-danger" onclick="test(event)">click</button>  
+    </section>
+    <!-- cards -->
+
+    
+</body>
+</html>

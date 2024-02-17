@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid d-flex justify-content-between ">
+            <!-- brand -->
+            <a class="navbar-brand d-block" href="index.html">Online Shoping</a>
+            <!-- brand -->
+            <!-- toggler -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-target="#navbar-collapse"
+                data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- toggler -->
+            <!-- Note : you should add (flex-grow-0) class to justify-content-between work -->
+            <div id="navbar-collapse" class="collapse navbar-collapse flex-grow-0">
+                <!-- userName -->
+            </div>
+            <div id="navbar-collapse" class="collapse navbar-collapse flex-grow-0">
+                <ul class="navbar-nav flex-row">
+                    <ul class="navbar-nav">
+                        <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownCart"
+                            data-bs-toggle="dropdown">
+                            Cart
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end col-6 col-lg-2" aria-labelledby="dropdownCart">
+                            <a href="#" class="dropdown-item">first</a>
+                            <a href="#" class="dropdown-item">second</a>
+                            <a href="#" class="dropdown-item">third</a>
+                        </div>
+                    </ul>
+                    <li class="nav-item"><a href="" class="nav-link">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- My Cart -->
+    <section class="container">
+        <!-- title -->
+        <h2 class="mt-5 mb-4 mx-auto mx-lg-0 w-25">My Cart</h2>
+        <!-- title -->
+        <div class="row justify-content-center justify-content-lg-start g-3" id="cart-items">
+            <!-- card -->
+            <div class="col-11 col-lg-6 mx-auto mx-md-0">
+                <div class="card shadow-sm">
+                    <div class="row">
+                        <div class="col-6 align-self-center">
+                            <img class="card-img" src="images/600x400.png" alt="Title">
+                        </div>
+                        <div class="col-6 ">
+                            <div class="card-body mt-2">
+                                <h4 class="card-title">Product Name</h4>
+                                <p class="card-text mb-0 fw-semibold"><span class="fs-5"
+                                        style="color:var(--bs-gray-dark);">Price: </span>80&dollar;</p>
+                                <p class="card-text fw-semibold"><span class="fs-5"
+                                        style="color:var(--bs-gray-dark);">Category:
+                                    </span>Category</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="align-self-center">
+                                        <span class="fw-semibold" style="color: var(--bs-gray-dark);">7</span>
+                                        <i class="fa-solid fa-plus ms-1" style="color: #00ff00;cursor: pointer;"></i>
+                                        <i class="fa-solid fa-minus ms-1" style="color: #ff0000;cursor: pointer;"></i>
+                                    </div>
+                                    <button class="btn btn-danger p-2 fw-semibold">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-11 col-lg-6 mx-auto mx-md-0">
+                <div class="card shadow-sm">
+                    <div class="row">
+                        <div class="col-6 align-self-center">
+                            <img class="card-img" src="images/600x400.png" alt="Title">
+                        </div>
+                        <div class="col-6 ">
+                            <div class="card-body mt-2">
+                                <h4 class="card-title">Product Name</h4>
+                                <p class="card-text mb-0 fw-semibold"><span class="fs-5"
+                                        style="color:var(--bs-gray-dark);">Price: </span>80&dollar;</p>
+                                <p class="card-text fw-semibold"><span class="fs-5"
+                                        style="color:var(--bs-gray-dark);">Category:
+                                    </span>Category</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="align-self-center">
+                                        <span class="fw-semibold" style="color: var(--bs-gray-dark);">7</span>
+                                        <i class="fa-solid fa-plus ms-1" style="color: #00ff00;cursor: pointer;"></i>
+                                        <i class="fa-solid fa-minus ms-1" style="color: #ff0000;cursor: pointer;"></i>
+                                    </div>
+                                    <button class="btn btn-danger p-2 fw-semibold">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <!-- card -->
+            <div class="col-11 col-lg-6 mx-auto mx-md-0">
+                <div class="card shadow-sm">
+                    <div class="row">
+                        <div class="col-6 align-self-center">
+                            <img class="card-img" src="images/600x400.png" alt="Title">
+                        </div>
+                        <div class="col-6 ">
+                            <div class="card-body mt-2">
+                                <h4 class="card-title">Product Name</h4>
+                                <p class="card-text mb-0 fw-semibold"><span class="fs-5"
+                                        style="color:var(--bs-gray-dark);">Price: </span>80&dollar;</p>
+                                <p class="card-text fw-semibold"><span class="fs-5"
+                                        style="color:var(--bs-gray-dark);">Category:
+                                    </span>Category</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="align-self-center">
+                                        <span class="fw-semibold" style="color: var(--bs-gray-dark);">7</span>
+                                        <i class="fa-solid fa-plus ms-1" style="color: #00ff00;cursor: pointer;"></i>
+                                        <i class="fa-solid fa-minus ms-1" style="color: #ff0000;cursor: pointer;"></i>
+                                    </div>
+                                    <button class="btn btn-danger p-2 fw-semibold">Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+        </div>
+        <!-- total-price -->
+        <h3 class="mx-auto mt-5 w-25">Total price : <span>1040&dollar;</span></h3>
+        <!-- total-price -->
+    </section>
+    <!-- My Cart -->
+
+    <!-- favorite -->
+    <div class="container">
+        <!-- title -->
+        <h2 class="mt-5 mb-4 w-25 mx-auto mx-lg-0">Favorite</h2>
+        <!-- title -->
+        <!-- carousel -->
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="images/600x400.png" class="w-100 d-block" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/600x400.png" class="w-100 d-block" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/600x400.png" class="w-100 d-block" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+          <!-- carousel -->
+    </div>
+    <!-- favorite -->
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+</html>
