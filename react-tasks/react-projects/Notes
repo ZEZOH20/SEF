@@ -1,0 +1,18 @@
+React :
+animation
+
+useState - useReducer
+useEffect
+useRef
+props - useContext
+
+useCallback - useMemo (optimization and performace)
+
+React-router-dom : 
+useNavigate 
+useParams 
+outlit
+
+useSearchParamets
+lazy loading
+Redux (Managment System)
