@@ -31,18 +31,18 @@ function App() {
 
   return (
     <>
-      {/* <Accordion /> */}
-      {/* <RandomColor/> */}
-      {/* <StarRating noOfStars ={10} /> */}
-      {/* <Slider /> */}
-      {/* <InfiniteScrolling/> */}
-      {/* <TreeStructure/> */}
-      {/* <QrGenerator/> */}
-      {/* <TestLocalStorage/> */}
-      {/* <ThemeSwitch /> */}
-      {/* <ScrollIndicator elementsLength={30} /> */}
-      {/* <RouterProvider router={router} /> */}
-      {/* <SearchPagination/> */}
+      <Accordion />
+      <RandomColor/>
+      <StarRating noOfStars ={10} />
+      <Slider />
+      <InfiniteScrolling/>
+      <TreeStructure/>
+      <QrGenerator/>
+      <TestLocalStorage/>
+      <ThemeSwitch />
+      <ScrollIndicator elementsLength={30} />
+      <RouterProvider router={router} />
+      <SearchPagination/>
 
     </>
   )
