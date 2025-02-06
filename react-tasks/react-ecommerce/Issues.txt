@@ -1,0 +1,8 @@
+dynamic DiscountTimer i think i should use backend and maybe cookies
+
+
+according to backend sended text when can i print new line ?
+
+you should to use React.useContext() to handle price and discountAmount inside (price , banner. bannerSection1)
+
+react formater is terrible
